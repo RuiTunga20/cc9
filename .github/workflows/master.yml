@@ -16,7 +16,7 @@ jobs:
       with:
         server: ftp.mirempet.ao
         username: r.tunga@cc9.mirempet.ao
-        password: @r.tunga@
+        password: ${{ secrets.ftp_password }}
         server-dir: /
 
 
