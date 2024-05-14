@@ -40,14 +40,14 @@ body{ background-color: #dddddd; }
 .body-wrapper, .gdlr-single-lightbox-container{ background-color: #ffffff; }
 .gdlr-page-title, .gdlr-page-title-gimmick{ color: #ffffff; }
 .gdlr-page-caption{ color: #ffffff; }
-h1, h2, h3, h4, h5, h6, .gdlr-title, .gdlr-title a{ color: #ff5e00; }
-.gdlr-item-title-wrapper .gdlr-item-title{ color: #ff5e00; border-color: #ff5e00; }
-.gdlr-item-title-divider{ border-color: #ff5e00; }
+h1, h2, h3, h4, h5, h6, .gdlr-title, .gdlr-title a{ color: #006279; }
+.gdlr-item-title-wrapper .gdlr-item-title{ color: #006279; border-color: #006279; }
+.gdlr-item-title-divider{ border-color: #006279; }
 .gdlr-item-title-wrapper .gdlr-item-caption{ color: #9b9b9b; }
 body{ color: #8b8b8b; }
-a{ color: #006279; }.single-session .gdlr-session-info .session-info.session-document a, .single-session .gdlr-session-info .session-info.session-document i{ color: #006279; }
-a:hover{ color: #006279; }
-body *{ border-color: #dddddd; }
+a{ color: #ff5e00; }.single-session .gdlr-session-info .session-info.session-document a, .single-session .gdlr-session-info .session-info.session-document i{ color: #ff5e00; }
+a:hover{ color: #ff5e00; }
+body *{ border-color: #ff5e00; }
 .page-not-found-block{ background-color: #006279; }
 .page-not-found-block{ color: #ffffff; }
 .page-not-found-search  .gdl-search-form input[type="text"]{ background-color: #006279; }
@@ -184,10 +184,10 @@ table.style-2 tr:nth-child(even){ color: #949494; }
 .gdlr-session-item .gdlr-session-item-head-info.gdlr-active{ background-color: #ff5e00; }.gdlr-session-item .gdlr-session-item-head-info { border-color: #ff5e00; }
 .gdlr-session-item .gdlr-session-item-head{ color: #ffffff; }
 .gdlr-session-item-content-wrapper{ background-color: #f7f7f7; }
-.gdlr-session-item .gdlr-session-item-title a{ color: #ff5e00; }
+.gdlr-session-item .gdlr-session-item-title a{ color: #006279; }
 .gdlr-session-item .gdlr-session-item-divider{ border-bottom-color: #e5e5e5; }
 .gdlr-session-item .gdlr-session-break-title{ color: #006279; }
-.gdlr-session-item .session-break-info{ color: #ff5e00; }
+.gdlr-session-item .session-break-info{ color: #006279; }
 .gdlr-accommodation-item{ background-color: #f2f2f2; }
 .gdlr-accommodation-item .accommodation-rating{ color: #ffffff; }
 .gdlr-accommodation-item .accommodation-rating{ background-color: #f6290e; }
