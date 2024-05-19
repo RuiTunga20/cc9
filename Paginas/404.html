@@ -38,14 +38,27 @@
             <div class=gdlr-header-inner>
                 <div class="gdlr-header-container container">
                     <div class=gdlr-logo>
-                        <a href=index.html> <img src="{% static 'images/logo.png' %}" alt> </a>
+                        <a href="/"> <img src="{% static 'images/logo.png' %}"  width="500" alt>  </a>
                         <div class="gdlr-responsive-navigation dl-menuwrapper" id=gdlr-responsive-navigation>
                             <button class=dl-trigger>Open Menu</button>
                             <ul id=menu-main-menu class="dl-menu gdlr-main-mobile-menu">
-                                <li class="menu-item menu-item-home current-menu-item   menu-item-has-children"><a href=index.html aria-current=page>Home</a>
-                                   
+                                <li class="menu-item menu-item-home current-menu-item   menu-item-has-children"><a href='#gdlr-header-substitute' aria-current=page>Início</a>
+                                    <ul class=dl-submenu>
+                                        <li class="menu-item menu-item-home"><a href=index.html aria-current=page>Homepage 1</a></li>
+                                        <li class="menu-item"><a href=homepage-2.html>Homepage 2</a></li>
+                                    </ul>
                                 </li>
-                               
+                            </li>
+                            <li class="menu-item menu-item-home current-menu-item  gdlr-normal-menu"><a href=#content-section-4>Moderadores</a>
+
+                            </li>
+                            <li class="menu-item menu-item-home current-menu-item  gdlr-normal-menu"><a href=#content-section-5>Programa</a>
+
+                            </li>
+
+
+                            </li>
+
 
                             </ul>
                         </div>
@@ -53,14 +66,33 @@
                     <div class=gdlr-navigation-wrapper>
                         <nav class=gdlr-navigation id=gdlr-main-navigation role=navigation>
                             <ul id=menu-main-menu-1 class="sf-menu gdlr-main-menu">
-                                <li class="menu-item menu-item-home  gdlr-normal-menu"><a href="/">Início</a>
-                                    
+                                <li class="menu-item menu-item-home current-menu-item  gdlr-normal-menu"><a href='#gdlr-header-substitute'>Home</a>
+
                                 </li>
-                               
+                                <li class="menu-item menu-item-home current-menu-item  gdlr-normal-menu"><a href=#content-section-4>Moderadores</a>
+
+                                </li>
+                                <li class="menu-item menu-item-home current-menu-item  gdlr-normal-menu"><a href=#content-section-5>Programa</a>
+
+                                </li>
+
+                                </li>
+
+                                <!--
+                                                       Restos
+                                -->
 
                             </ul>
-                        </nav> <span class=gdlr-menu-search-button-sep>|</span> <i class="fa fa-search icon-search gdlr-menu-search-button" id=gdlr-menu-search-button></i>
-                        
+                        </nav> <span class=gdlr-menu-search-button-sep>
+                        <div class=gdlr-menu-search id=gdlr-menu-search>
+                            <form method=get id=searchform action=index.html>
+                            <div class=search-text>
+                                <input type=text value="Type Keywords" name=s autocomplete=off data-default="Type Keywords">
+                            </div>
+                            <input type=submit value>
+                            <div class=clear></div>
+                            </form>
+                        </div>
                         <div class=gdlr-navigation-gimmick id=gdlr-navigation-gimmick></div>
                         <div class=clear></div>
                     </div>
